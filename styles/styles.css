@@ -63,6 +63,10 @@ h1 img{
 }
 footer{
     background-color: rgb(48, 39, 176);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: rgb(125, 191, 249);
 }
 .copy{
     text-align: right;
@@ -80,7 +84,7 @@ footer{
     width: 23%;
     box-sizing: border-box;
 }
-.container{
+.containerr{
     margin: 0 auto;
     width: 80%;
     display: grid;
