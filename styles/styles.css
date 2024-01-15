@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(125, 191, 249);
+}
+/* header */
+.color-fondo {
+    background-color: rgb(48, 39, 176);
+    color: rgb(125, 191, 249);
+}
+/* lista del nav */
+.lista{
+    list-style: none;
+}
+.lista a {
+    color: rgb(125, 191, 249); 
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 10%;
+    height: 50px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "uls uls uls uls uls"
+}
+.uls{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    grid-area: left-ul;
+}
+h1{
+    text-align: center;
+}
+h1 img{
+    width: 25px;
+}
+/* iconos del footer */
+.tam-icono {
+    width: 35px;
+}
+.alineacion {
+    text-align: left ;
+    margin: 40px
+
+  
+}
+/* imagen principal del index.html */
+.img-principal{
+    width: 700px;
+    padding: 10px;
+    float: right;
+}
+footer{
+    background-color: rgb(48, 39, 176);
+}
+.copy{
+    text-align: right;
+}
+
+/* columna, container, flex son de seguros.html */
+.columna{
+    background: rgb(48, 39, 176);
+    color: rgb(15, 14, 14);
+    border: 1px solid rgb(15, 14, 14);
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888;
+    width: 23%;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.text-center{
+    text-align: center;
+}
+
+.boton{
+    background: salmon;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+/* Tamaño de imagenes de las marcas y tipos de seguros */
+.tam-img{
+    width: 150px;
+}
+
+a:hover{
+    color: rgb(161, 128, 128)
+}
+.boton:hover{
+    background-color: rgb(204, 208, 210);
+    color: rgb(14, 14, 14);
+}
