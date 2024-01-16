@@ -24,7 +24,7 @@ body{
     font-size: 15px;
     font-weight: bold;
 }
-.navbar {
+.navbarr {
     display: grid;
     justify-content: space-around;
     align-items: center;
@@ -70,6 +70,7 @@ footer{
 }
 .copy{
     text-align: right;
+    display: block;
 }
 
 /* columna, container, flex son de seguros.html */
