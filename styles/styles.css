@@ -50,16 +50,17 @@ h1 img{
     width: 35px;
 }
 .alineacion {
-    text-align: left ;
+    text-align: justify ;
     margin: 40px
 
   
 }
 /* imagen principal del index.html */
 .img-principal{
-    width: 700px;
+    width: 100%;
     padding: 10px;
     float: right;
+    height: auto;
 }
 footer{
     background-color: rgb(48, 39, 176);
@@ -106,6 +107,7 @@ footer{
     background: salmon;
     display: block;
     padding: 10px;
+    font-size: 16px;
     color: #fff;
     text-decoration: none;
     border-radius: 3px;
@@ -121,4 +123,9 @@ a:hover{
 .boton:hover{
     background-color: rgb(204, 208, 210);
     color: rgb(14, 14, 14);
+}
+
+main{
+    overflow: hidden;
+    margin-bottom: 120px;
 }
