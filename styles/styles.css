@@ -78,24 +78,18 @@ footer{
     color: rgb(15, 14, 14);
     border: 1px solid rgb(15, 14, 14);
     margin: 0 auto;
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px;
     box-shadow: 10px 10px 5px #888;
     width: 23%;
     box-sizing: border-box;
-}
-.containerr{
-    margin: 0 auto;
-    width: 80%;
-    display: grid;
-    
 }
 .flex{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
-
+    margin-top: 40px;
 }
 .text-center{
     text-align: center;
@@ -137,3 +131,52 @@ main{
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.boton-index{
+    background-color: rgb(48, 39, 176);
+    color: rgb(125, 191, 249);
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+/* Pagina de Seguros con @media*/
+/* Para pantallas grandes (desktop) */
+@media only screen and (min-width: 992px) {
+    .flex {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .columna {
+        width: 23%;
+        margin: 0;
+    }
+}
+
+/* Para pantallas medianas (tablets) */
+@media only screen and (max-width: 991px) and (min-width: 576px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .columna {
+        width: 80%;
+        margin-bottom: 20px;
+        margin-top: 10%;
+    }
+}
+
+/* Para pantallas pequeñas (móviles) */
+@media only screen and (max-width: 575px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .columna {
+        width: 80%;
+        margin-bottom: 20px;
+        margin-top: 10%;
+    }
+}
+
