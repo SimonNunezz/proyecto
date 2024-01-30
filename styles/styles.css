@@ -1,265 +1,266 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;400&display=swap');
-
-
-*{
-    margin: 0;
-    padding: 0;
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: 'Montserrat', sans-serif;
-    background-color: rgb(125, 191, 249);
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(125, 191, 249);
 }
+
 /* header */
 .color-fondo {
-    background-color: rgb(48, 39, 176);
-    color: rgb(125, 191, 249);
+  background-color: rgb(48, 39, 176);
+  color: rgb(125, 191, 249);
 }
+
 /* lista del nav */
-.lista{
-    list-style: none;
+.lista {
+  list-style: none;
 }
 .lista a {
-    color: rgb(125, 191, 249); 
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: bold;
+  color: rgb(125, 191, 249);
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
 }
+
 .navbarr {
-    display: grid;
-    justify-content: space-around;
-    align-items: center;
-    padding: 5px 10%;
-    height: 50px;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-areas: "uls uls uls uls uls"
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 10%;
+  height: 50px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas: "uls uls uls uls uls";
 }
-.uls{
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
-    grid-area: left-ul;
+
+.uls {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  grid-area: left-ul;
 }
-h1{
-    text-align: center;
+
+h1 {
+  text-align: center;
 }
-h1 img{
-    width: 25px;
+h1 img {
+  width: 25px;
 }
+
 /* iconos del footer */
 .tam-icono {
-    width: 35px;
+  width: 35px;
 }
+
 .alineacion {
-    text-align: justify ;
-    margin: 40px
+  text-align: justify;
+  margin: 40px;
 }
+
 /* imagen principal del index.html */
-.img-principal{
-    width: 100%;
-    padding: 10px;
-    float: right;
-    height: auto;
+.img-principal {
+  width: 100%;
+  padding: 10px;
+  float: right;
+  height: auto;
 }
-footer{
-    background-color: rgb(48, 39, 176);
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    color: rgb(125, 191, 249);
+
+footer {
+  background-color: rgb(48, 39, 176);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  color: rgb(125, 191, 249);
 }
-.copy{
-    text-align: right;
-    display: block;
+
+.copy {
+  text-align: right;
+  display: block;
 }
 
 /* columna, container, boton son de seguros.html */
-
-.flex{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
-    margin-top: 40px;
-}
-.text-center{
-    text-align: center;
-}
-.columna{
-    background: rgb(48, 39, 176);
-    color: rgb(125, 191, 249);
-    border: 1px solid rgb(15, 14, 14);
-    margin: 40px auto;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 5px #888;
-    width: 35%;
-    height: 500px;
-    box-sizing: border-box;
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 40px;
 }
 
-.boton{
-    background: salmon;
-    display: block;
-    padding: 10px;
-    font-size: 16px;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 3px;
+.text-center {
+  text-align: center;
+}
+
+.columna {
+  background: rgb(48, 39, 176);
+  color: rgb(125, 191, 249);
+  border: 1px solid rgb(15, 14, 14);
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #888;
+  width: 35%;
+  height: 500px;
+  box-sizing: border-box;
+}
+
+.boton {
+  background: salmon;
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.boton:hover {
+  background-color: rgb(204, 208, 210);
+  color: rgb(14, 14, 14);
 }
 
 /*respaldo-empresas*/
-.texto{
-    margin-left: 20%;
-    margin-right: 20%;
+.texto {
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .fila-respaldo {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
 }
-
 .fila-respaldo img {
-    width: 30%; 
-    height: auto; 
-    margin: 0 25px;
-    padding-top: 40px;
-}
-.tam-img{
-    width: 150px; 
-    height: 150px; 
-    margin: 0 25px;
-    padding-top: 40px;
+  width: 30%;
+  height: auto;
+  margin: 0 25px;
+  padding-top: 40px;
 }
 
-a:hover{
-    color: rgb(161, 128, 128)
-}
-.boton:hover{
-    background-color: rgb(204, 208, 210);
-    color: rgb(14, 14, 14);
-}
-
-main{
-    overflow: hidden;
-    margin-bottom: 120px;
+.tam-img {
+  width: 150px;
+  height: 150px;
+  margin: 0 25px;
+  padding-top: 40px;
 }
 
-.img-siniestro{
-    margin-top: 30px;
-    margin-bottom: 30px;
+a:hover {
+  color: rgb(161, 128, 128);
 }
-.boton-index{
-    background-color: rgb(48, 39, 176);
-    color: rgb(125, 191, 249);
-    border-radius: 3px;
-    text-decoration: none;
+
+main {
+  overflow: hidden;
+  margin-bottom: 120px;
+}
+
+.img-siniestro {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.boton-index {
+  background-color: rgb(48, 39, 176);
+  color: rgb(125, 191, 249);
+  border-radius: 3px;
+  text-decoration: none;
 }
 
 .titulos-contacto {
-    text-align: center;
+  text-align: center;
 }
 .titulos-contacto h2 {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-decoration: underline; 
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-decoration: underline;
 }
 
 form {
-    margin: 0 auto; 
-    max-width: 500px; 
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #f5f5f5;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
 }
-
-label {
-    display: block;
-    margin-bottom: 10px;
+form label {
+  display: block;
+  margin-bottom: 10px;
 }
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
+form input[type=text],
+form input[type=email],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
-
-button[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+form button[type=submit] {
+  background-color: rgb(48, 39, 176);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
-
-button[type="submit"]:hover {
-    background-color: #0056b3;
+form button[type=submit]:hover {
+  background-color: rgb(48, 39, 176);
 }
 
 .mapa {
-    display: block;
-    margin: 0 auto; 
-    max-width: 100%;
-    width: 500px;
-    height: 400px; 
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 500px;
+  height: 400px;
 }
-
 
 /* Para pantallas medianas (tablets) */
 @media only screen and (max-width: 991px) and (min-width: 576px) {
-    .flex {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .columna {
-        width: 80%;
-        margin-bottom: 20px;
-        margin-top: 10%;
-    }
-    /*pagina de siniestro*/
-    .img-siniestro{
-        width: 90%;
-        margin: 10% 8%;
-    }
-    
-    
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .columna {
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 10%;
+  }
+  /*pagina de siniestro*/
+  .img-siniestro {
+    width: 90%;
+    margin: 10% 8%;
+  }
 }
-
 /* Para pantallas pequeñas (móviles) */
 @media only screen and (max-width: 575px) {
-    .flex {
-        display: flex;
-        flex-direction: column;
-    }
-      /*pagina de seguros*/
-    .columna {
-        width: 80%;
-        margin-bottom: 20px;
-        margin-top: 10%;
-    }
-     /*pagina de respaldo*/
-    .fila-respaldo {
-        flex-direction: column; 
-        align-items: center; 
-    }
-    .fila-respaldo img {
-        max-width: 90%; 
-        margin: 10px 0; 
-    }
-     /*pagina de siniestro*/
-     .img-siniestro{
-        width: 90%;
-        margin: 10% 8%;
-    }
-    
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  /*pagina de seguros*/
+  .columna {
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 10%;
+  }
+  /*pagina de respaldo*/
+  .fila-respaldo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .fila-respaldo img {
+    max-width: 90%;
+    margin: 10px 0;
+  }
+  /*pagina de siniestro*/
+  .img-siniestro {
+    width: 90%;
+    margin: 10% 8%;
+  }
+}
 
-
-
-
+/*# sourceMappingURL=styles.css.map */

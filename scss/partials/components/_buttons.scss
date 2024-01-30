@@ -1,0 +1,19 @@
+.boton {
+    background: salmon;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    &:hover {
+        background-color: rgb(204, 208, 210);
+        color: rgb(14, 14, 14);
+    }
+}
+.boton-index {
+    background-color: $blue;
+    color: $celeste;
+    border-radius: 3px;
+    text-decoration: none;
+}

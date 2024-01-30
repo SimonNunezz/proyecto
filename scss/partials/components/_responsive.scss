@@ -1,0 +1,51 @@
+/* Para pantallas medianas (tablets) */
+@media only screen and (max-width: 991px) and (min-width: 576px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .columna {
+        width: 80%;
+        margin-bottom: 20px;
+        margin-top: 10%;
+    }
+
+    /*pagina de siniestro*/
+    .img-siniestro {
+        width: 90%;
+        margin: 10% 8%;
+    }
+}
+
+/* Para pantallas pequeñas (móviles) */
+@media only screen and (max-width: 575px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*pagina de seguros*/
+    .columna {
+        width: 80%;
+        margin-bottom: 20px;
+        margin-top: 10%;
+    }
+
+    /*pagina de respaldo*/
+    .fila-respaldo {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .fila-respaldo img {
+        max-width: 90%; 
+        margin: 10px 0; 
+    }
+
+    /*pagina de siniestro*/
+    .img-siniestro {
+        width: 90%;
+        margin: 10% 8%;
+    }
+}
