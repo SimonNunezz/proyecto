@@ -62,7 +62,7 @@ h1 img{
 }
 footer{
     background-color: rgb(48, 39, 176);
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     color: rgb(125, 191, 249);
@@ -73,17 +73,7 @@ footer{
 }
 
 /* columna, container, flex son de seguros.html */
-.columna{
-    background: rgb(48, 39, 176);
-    color: rgb(15, 14, 14);
-    border: 1px solid rgb(15, 14, 14);
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 5px #888;
-    width: 23%;
-    box-sizing: border-box;
-}
+
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -94,6 +84,18 @@ footer{
 .text-center{
     text-align: center;
 }
+.columna{
+    background: rgb(48, 39, 176);
+    color: rgb(15, 14, 14);
+    border: 1px solid rgb(15, 14, 14);
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888;
+    width: 30%;
+    box-sizing: border-box;
+}
+
 
 .boton{
     background: salmon;
@@ -104,12 +106,29 @@ footer{
     text-decoration: none;
     border-radius: 3px;
 }
-/* Tamaño de imagenes de las marcas y tipos de seguros */
+
+.texto-respaldo{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.fila-respaldo {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.fila-respaldo img {
+    width: 30%; 
+    height: auto; 
+    margin: 0 25px;
+    padding-top: 40px;
+}
 .tam-img{
-    width: 30%;
-    height: auto;
-    margin-right: 25px;
-    margin-left: 25px;
+    width: 150px; 
+    height: 150px; 
+    margin: 0 25px;
+    padding-top: 40px;
 }
 
 
@@ -138,20 +157,6 @@ main{
     text-decoration: none;
 }
 
-/* Pagina de Seguros con @media*/
-/* Para pantallas grandes (desktop) */
-@media only screen and (min-width: 992px) {
-    .flex {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .columna {
-        width: 23%;
-        margin: 0;
-    }
-}
-
 /* Para pantallas medianas (tablets) */
 @media only screen and (max-width: 991px) and (min-width: 576px) {
     .flex {
@@ -172,11 +177,24 @@ main{
         display: flex;
         flex-direction: column;
     }
-
+      /*pagina de seguros*/
     .columna {
         width: 80%;
         margin-bottom: 20px;
         margin-top: 10%;
     }
-}
+     /*pagina de respaldo*/
+    .fila-respaldo {
+        flex-direction: column; /* Cambia la dirección de la fila a columna */
+        align-items: center; /* Centra las imágenes verticalmente */
+    }
+    
+    .fila-respaldo img {
+        max-width: 90%; /* Ancho máximo para dispositivos móviles */
+        margin: 10px 0; /* Espacio entre las imágenes */
+    }
+    
+
+
+
 
