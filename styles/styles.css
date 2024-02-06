@@ -5,9 +5,8 @@
   padding: 0;
 }
 
-body {
-  font-family: "Montserrat", sans-serif;
-  background-color: rgb(125, 191, 249);
+h1 {
+  text-decoration: underline;
 }
 
 /* header */
@@ -51,14 +50,15 @@ h1 img {
   width: 25px;
 }
 
-/* iconos del footer */
-.tam-icono {
-  width: 35px;
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  background-color: rgb(125, 191, 249);
 }
 
-.alineacion {
-  text-align: justify;
-  margin: 40px;
+main {
+  overflow: hidden;
+  margin-bottom: 120px;
 }
 
 /* imagen principal del index.html */
@@ -69,6 +69,15 @@ h1 img {
   height: auto;
 }
 
+.alineacion {
+  text-align: justify;
+  margin: 40px;
+}
+
+a:hover {
+  color: rgb(161, 128, 128);
+}
+
 footer {
   background-color: rgb(48, 39, 176);
   position: relative;
@@ -77,12 +86,16 @@ footer {
   color: rgb(125, 191, 249);
 }
 
+/* iconos del footer */
+.tam-icono {
+  width: 35px;
+}
+
 .copy {
   text-align: right;
   display: block;
 }
 
-/* columna, container, boton son de seguros.html */
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -108,6 +121,13 @@ footer {
   box-sizing: border-box;
 }
 
+.tam-img {
+  width: 150px;
+  height: 150px;
+  margin: 0 25px;
+  padding-top: 40px;
+}
+
 .boton {
   background: salmon;
   display: block;
@@ -120,45 +140,6 @@ footer {
 .boton:hover {
   background-color: rgb(204, 208, 210);
   color: rgb(14, 14, 14);
-}
-
-/*respaldo-empresas*/
-.texto {
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-.fila-respaldo {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 20px;
-}
-.fila-respaldo img {
-  width: 30%;
-  height: auto;
-  margin: 0 25px;
-  padding-top: 40px;
-}
-
-.tam-img {
-  width: 150px;
-  height: 150px;
-  margin: 0 25px;
-  padding-top: 40px;
-}
-
-a:hover {
-  color: rgb(161, 128, 128);
-}
-
-main {
-  overflow: hidden;
-  margin-bottom: 120px;
-}
-
-.img-siniestro {
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 .boton-index {
@@ -218,6 +199,28 @@ form button[type=submit]:hover {
   height: 400px;
 }
 
+.texto {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.fila-respaldo {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.fila-respaldo img {
+  width: 30%;
+  height: 80%;
+  margin: 0 25px;
+  padding-top: 40px;
+}
+
+.img-siniestro {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 /* Para pantallas medianas (tablets) */
 @media only screen and (max-width: 991px) and (min-width: 576px) {
   .flex {
@@ -237,6 +240,9 @@ form button[type=submit]:hover {
 }
 /* Para pantallas pequeñas (móviles) */
 @media only screen and (max-width: 575px) {
+  body {
+    font-size: 14px;
+  }
   .flex {
     display: flex;
     flex-direction: column;
