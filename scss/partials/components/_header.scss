@@ -33,9 +33,11 @@
 }
 
 h1 {
+    @extend %text-underline;
+
     text-align: center;
 
     img {
-        width: 25px;
+        @include tam-icono(25px);
     }
 }
