@@ -217,8 +217,29 @@ form button[type=submit]:hover {
 }
 
 .img-siniestro {
-  margin-top: 30px;
+  margin-top: 90px;
   margin-bottom: 30px;
+  width: 40%;
+  float: left;
+  margin-left: 1%;
+}
+
+.titulo_siniestro {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+
+.texto-siniestro {
+  width: 55%;
+  float: right;
+  margin-left: 10px;
+  margin-right: 40px;
+  margin-top: 30px;
+}
+
+.boton {
+  clear: both;
 }
 
 /* Para pantallas medianas (tablets) */
@@ -266,6 +287,11 @@ form button[type=submit]:hover {
   .img-siniestro {
     width: 90%;
     margin: 10% 8%;
+  }
+  .texto-siniestro {
+    width: 80%;
+    float: none;
+    margin-left: 45px;
   }
 }
 

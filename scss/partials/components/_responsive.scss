@@ -1,3 +1,4 @@
+  
 /* Para pantallas medianas (tablets) */
 @media only screen and (max-width: 991px) and (min-width: 576px) {
     .flex {
@@ -50,5 +51,12 @@
     .img-siniestro {
         width: 90%;
         margin: 10% 8%;
+    }
+    .texto-siniestro{
+        width: 80%; // Ancho del texto, ajustado para dejar espacio para la imagen
+        float: none;
+       margin-left: 45px;
+    
+        
     }
 }
