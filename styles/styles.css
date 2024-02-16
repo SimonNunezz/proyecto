@@ -210,8 +210,8 @@ form button[type=submit]:hover {
   margin-bottom: 20px;
 }
 .fila-respaldo img {
-  width: 30%;
-  height: 80%;
+  width: 330px;
+  height: auto;
   margin: 0 25px;
   padding-top: 40px;
 }
