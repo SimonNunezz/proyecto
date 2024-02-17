@@ -1,8 +1,8 @@
 .img-siniestro {
     margin-top: 90px;
     margin-bottom: 30px;
-    width: 40%; // Ancho de la imagen
-    float: left; // Alinear a la izquierda
+    width: 40%;
+    float: left; 
     margin-left: 1%;
 }
 .titulo_siniestro{
@@ -11,10 +11,10 @@
     margin-top: 5%;
 }
 .texto-siniestro {
-    width: 55%; // Ancho del texto, ajustado para dejar espacio para la imagen
-    float: right; // Alinear a la derecha
-    margin-left: 10px; // Espacio entre la imagen y el texto
-    margin-right: 40px;
+    width: 55%; 
+    float: right; 
+    margin-left: 10px; 
+    margin-right: $margins;
     margin-top: 30px;
 }
 .boton {

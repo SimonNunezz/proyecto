@@ -78,6 +78,15 @@ a:hover {
   color: rgb(161, 128, 128);
 }
 
+.img-iconos {
+  width: 110px;
+}
+
+.centrado {
+  justify-content: space-around;
+  text-align: center;
+}
+
 footer {
   background-color: rgb(48, 39, 176);
   position: relative;
@@ -147,6 +156,7 @@ footer {
   color: rgb(125, 191, 249);
   border-radius: 3px;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .titulos-contacto {
@@ -291,7 +301,7 @@ form button[type=submit]:hover {
   .texto-siniestro {
     width: 80%;
     float: none;
-    margin-left: 45px;
+    margin-left: 40px;
   }
 }
 

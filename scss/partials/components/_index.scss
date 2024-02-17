@@ -12,8 +12,18 @@ main {
 }
 .alineacion {
     text-align: justify;
-    margin: 40px;
+    margin: $margins;
 }
 a:hover {
     color: rgb(161, 128, 128);
+}
+
+.img-iconos{
+    width: 110px;
+    
+}
+
+.centrado{
+    justify-content: space-around;
+    text-align: center;
 }

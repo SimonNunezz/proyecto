@@ -53,10 +53,8 @@
         margin: 10% 8%;
     }
     .texto-siniestro{
-        width: 80%; // Ancho del texto, ajustado para dejar espacio para la imagen
+        width: 80%; 
         float: none;
-       margin-left: 45px;
-    
-        
+        margin-left: $margins;
     }
 }

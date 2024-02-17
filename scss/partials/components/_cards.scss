@@ -1,9 +1,9 @@
 .flex {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: $justifys;
     flex-direction: row;
-    margin-top: 40px;
+    margin-top: $margins;
 }
 
 .text-center {
@@ -14,7 +14,7 @@
     background: $blue;
     color: $celeste;
     border: 1px solid rgb(15, 14, 14);
-    margin: 40px auto;
+    margin: $margins auto;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 10px 10px 5px #888;

@@ -17,7 +17,7 @@
 
 .navbarr {
     display: grid;
-    justify-content: space-around;
+    justify-content: $justifys;
     align-items: center;
     padding: 5px 10%;
     height: 50px;
@@ -34,9 +34,7 @@
 
 h1 {
     @extend %text-underline;
-
     text-align: center;
-
     img {
         @include tam-icono(25px);
     }
